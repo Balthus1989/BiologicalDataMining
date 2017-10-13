@@ -1,0 +1,88 @@
+Output files for preprocessing           
+
+                  Batch 1 (GSE2508) #GSE2508_geno.p, GSE2508_pheno.p
+
+Gene expression matrix
+
+                           1        10        100      1000      10000  \
+GSE2508 Lean F 01  11.458509  8.562242  10.389040  9.167794  26.304730   
+GSE2508 Lean F 02  10.838416  6.830357  10.267899  8.907341  28.503714   
+GSE2508 Lean F 03  10.227135  7.361944  10.516439  8.354911  29.631237   
+GSE2508 Lean F 04  11.093021  7.353147  10.034524  9.626439  28.650759   
+GSE2508 Lean F 05  11.459995  7.366322  10.006046  9.171427  28.249339
+
+Clinical phenotype matrix
+
+                   gender  cbmi
+GSE2508 Lean F 01  female  lean
+GSE2508 Lean F 02  female  lean
+GSE2508 Lean F 03  female  lean
+GSE2508 Lean F 04  female  lean
+GSE2508 Lean F 05  female  lean
+
+                             Batch 2 (GSE26637) #GSE26637_geno.p, GSE26637_pheno.p
+
+Gene expression matrix
+
+              1    10    100   1000     10000  100009676   10001  10002  \
+GSM655608  2.15  2.20  5.835  3.050  5.108333      2.615  5.5675  2.685   
+GSM655609  2.17  2.18  6.365  3.110  4.960000      2.555  5.5900  2.515   
+GSM655610  2.16  2.23  6.050  3.040  5.420000      2.585  6.4375  2.575   
+GSM655611  2.13  2.29  5.515  3.015  5.131667      2.560  5.7900  2.540   
+GSM655612  2.13  3.33  6.945  3.015  4.701667      2.565  6.0175  2.535
+
+Clinical phenotype matrix
+
+           cbmi insulin_status fasting_status
+GSM655608  lean      sensitive        fasting
+GSM655609  lean      sensitive        fasting
+GSM655610  lean      sensitive        fasting
+GSM655611  lean      sensitive        fasting
+GSM655612  lean      sensitive        fasting
+
+                             Batch 3 (GSE27949) #GSE27949_geno.p, GSE27949_pheno.p
+Gene expression matrix
+
+                  1        10       100      1000     10000  100009676  \
+GSM691136  3.789106  3.421848  5.473183  3.560196  5.150060   3.516442   
+GSM691143  4.213376  3.858635  5.712123  3.740538  4.954951   3.487883   
+GSM691151  3.853851  3.631455  5.229485  3.578582  4.636259   3.486197   
+GSM691152  3.905869  3.812028  5.441216  3.718983  4.950701   3.461761   
+GSM691153  3.933165  4.106960  6.344840  3.683929  4.920402   3.500371
+
+Clinical phenotype matrix
+
+           cbmi   bmi
+GSM691136  lean  23.2
+GSM691143  lean  23.6
+GSM691151  lean  16.7
+GSM691152  lean  23.0
+GSM691153  lean  23.1
+
+
+                             Batch 4 (GSE48964) #GSE48964_geno.p, GSE48964_pheno.p
+Gene expression matrix
+
+                 10       100     1000    10000  100008588  100008589  \
+GSM1187676  4.92198  10.41020  10.4737  10.2915    13.6819  10.635915   
+GSM1187677  5.06599  10.68150  12.6817  10.4217    13.6498  10.550725   
+GSM1187678  5.09882   9.95644  12.7554  10.3598    13.6702  10.613485   
+GSM1187673  4.80774  10.14680  12.8552  10.6211    13.6571  10.673630   
+GSM1187674  5.20881   9.79308  12.6922  10.4362    13.5868  10.803460
+
+Clinical phenotype matrix
+
+             cbmi
+GSM1187676   lean
+GSM1187677   lean
+GSM1187678   lean
+GSM1187673  obese
+GSM1187674  obese
+
+
+
+
+
+         
+      
+

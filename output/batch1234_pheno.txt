@@ -1,0 +1,89 @@
+samples	batch	bmi	cbmi	fasting_status	gender	insulin_status
+Lean F 01	batch1		lean		F	
+Lean F 02	batch1		lean		F	
+Lean F 03	batch1		lean		F	
+Lean F 04	batch1		lean		F	
+Lean F 05	batch1		lean		F	
+Lean F 06	batch1		lean		F	
+Lean F 07	batch1		lean		F	
+Lean F 08	batch1		lean		F	
+Lean F 09	batch1		lean		F	
+Lean F 10	batch1		lean		F	
+Lean M 01	batch1		lean		M	
+Lean M 02	batch1		lean		M	
+Lean M 03	batch1		lean		M	
+Lean M 04	batch1		lean		M	
+Lean M 05	batch1		lean		M	
+Lean M 06	batch1		lean		M	
+Lean M 07	batch1		lean		M	
+Lean M 08	batch1		lean		M	
+Lean M 09	batch1		lean		M	
+Lean M 10	batch1		lean		M	
+Obese F 01	batch1		obese		F	
+Obese F 02	batch1		obese		F	
+Obese F 03	batch1		obese		F	
+Obese F 04	batch1		obese		F	
+Obese F 05	batch1		obese		F	
+Obese F 06	batch1		obese		F	
+Obese F 07	batch1		obese		F	
+Obese F 08	batch1		obese		F	
+Obese F 09	batch1		obese		F	
+Obese F 10	batch1		obese		F	
+Obese M 01	batch1		obese		M	
+Obese M 02	batch1		obese		M	
+Obese M 03	batch1		obese		M	
+Obese M 04	batch1		obese		M	
+Obese M 05	batch1		obese		M	
+Obese M 06	batch1		obese		M	
+Obese M 07	batch1		obese		M	
+Obese M 08	batch1		obese		M	
+Obese M 09	batch1		obese		M	
+GSM655603	batch2		obese	fasting	female	resistant
+GSM655604	batch2		obese	fasting	female	resistant
+GSM655605	batch2		obese	fasting	female	resistant
+GSM655606	batch2		obese	fasting	female	resistant
+GSM655607	batch2		obese	fasting	female	resistant
+GSM655608	batch2		lean	fasting	female	sensitive
+GSM655609	batch2		lean	fasting	female	sensitive
+GSM655610	batch2		lean	fasting	female	sensitive
+GSM655611	batch2		lean	fasting	female	sensitive
+GSM655612	batch2		lean	fasting	female	sensitive
+GSM655613	batch2		obese	hyperinsulinemia	female	resistant
+GSM655614	batch2		obese	hyperinsulinemia	female	resistant
+GSM655615	batch2		obese	hyperinsulinemia	female	resistant
+GSM655616	batch2		obese	hyperinsulinemia	female	resistant
+GSM655617	batch2		obese	hyperinsulinemia	female	resistant
+GSM655618	batch2		lean	hyperinsulinemia	female	sensitive
+GSM655619	batch2		lean	hyperinsulinemia	female	sensitive
+GSM655620	batch2		lean	hyperinsulinemia	female	sensitive
+GSM655621	batch2		lean	hyperinsulinemia	female	sensitive
+GSM655622	batch2		lean	hyperinsulinemia	female	sensitive
+GSM691122	batch3	38.1	obese			
+GSM691123	batch3	35.3	obese			
+GSM691124	batch3	32.9	obese			
+GSM691125	batch3	42.2	obese			
+GSM691126	batch3	39.7	obese			
+GSM691127	batch3	36.7	obese			
+GSM691128	batch3	41.5	obese			
+GSM691129	batch3	50.2	obese			
+GSM691130	batch3	37.4	obese			
+GSM691131	batch3	36.7	obese			
+GSM691132	batch3	39.5	obese			
+GSM691134	batch3	33.2	obese			
+GSM691136	batch3	23.2	lean			
+GSM691138	batch3	31.8	obese			
+GSM691142	batch3	32.2	obese			
+GSM691143	batch3	23.6	lean			
+GSM691144	batch3	39.1	obese			
+GSM691145	batch3	34.2	obese			
+GSM691146	batch3	33.1	obese			
+GSM691151	batch3	16.7	lean			
+GSM691152	batch3	23.0	lean			
+GSM691153	batch3	23.1	lean			
+GSM691154	batch3	23.2	lean			
+GSM1187673	batch4		obese			
+GSM1187674	batch4		obese			
+GSM1187675	batch4		obese			
+GSM1187676	batch4		lean			
+GSM1187677	batch4		lean			
+GSM1187678	batch4		lean			

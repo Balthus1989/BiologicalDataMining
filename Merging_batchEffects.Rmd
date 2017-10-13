@@ -1,0 +1,20 @@
+---
+title: "Merging and Batch Effects Removal (Alternative Method)"
+output: html_notebook
+---
+
+This is an alternative workflow for merging the four batches and remove the batch effects.
+
+Load the four batches
+
+```{r}
+
+batch1 <- read.table("./output/batch1_geno.txt", sep='\t', header=True)
+print(head(batch1))
+  
+
+
+
+```
+
+
