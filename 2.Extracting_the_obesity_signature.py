@@ -1,19 +1,3 @@
-
-# coding: utf-8
-
-# # Integrative analysis of pathway deregulation in obesity
-# ### Extracting the obesity signature
-# Here we show how to extract a transcriptomic signature of obesity after having merged 4 independent datasets in [this notebook](link). We obtain a signature composed of only 38 genes, as explained in
-#
-# F. Font-Clos, S. Zapperi, C.A.M. La Porta
-# Integrative analysis of pathway deregulation in obesity
-# *npj Systems Biology and Applications (accepted)*, 2017
-# [insert link](link).
-#
-#
-
-# In[1]:
-
 import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
@@ -26,16 +10,7 @@ from scipy.stats import ks_2samp
 
 import copy
 
-
-# In[2]:
-
 import sklearn
-
-
-# ### Load gene-expression data for batches 1-4
-# We have already removed batch-effects [in this notebook](link) (you might need to run it before proceeding if you're executing this one locally). So we just load the pickled dataframes, which correspond to the gene expression data of batches 1 to 4.
-
-# In[9]:
 
 geno = pd.read_pickle("./output/replication/our/batches1-4_merged/batch1234_geno.p")
 pheno = pd.read_pickle("./output/replication/our/batches1-4_merged/batch1234_pheno.p")
@@ -87,7 +62,7 @@ N = geno.shape[1]
 sigma = 1/np.sqrt(N)
 
 
-# There are only 38 genes above our $5\sigma$ threshold. We discard the rest:
+# There are only 65 genes above our $5\sigma$ threshold. We discard the rest:
 
 # In[16]:
 
@@ -126,7 +101,7 @@ latex_size=18  # fontsize of latex-rendered pval, corr_coef annotations
 
 # In[21]:
 
-plt.figure(figsize=(6,4))
+plt.figure(figsize=(6.5,5))
 
 # internal parameters
 t = range(1,N+1)
@@ -136,8 +111,8 @@ M=20
 K2=5
 
 # MAIN PLOT
-plt.plot((t[:38]),v_df["abscoef"].values[:38],color="black",linestyle="-",linewidth="2",label="SCORE")
-plt.plot((t[38:]),v_df["abscoef"].values[38:],color="black",alpha=0.35,linestyle="-",linewidth="2")
+plt.plot((t[:65]),v_df["abscoef"].values[:65],color="black",linestyle="-",linewidth="2",label="SCORE")
+plt.plot((t[65:]),v_df["abscoef"].values[65:],color="black",alpha=0.35,linestyle="-",linewidth="2")
 
 # SHADOWS
 for j in [-1,1]:
@@ -156,7 +131,7 @@ plt.ylim([0,.14])
 plt.xlim([0,200])
 plt.xlabel("Rank-ordered genes",size=labelsize)
 plt.ylabel("Absolute value of coefficient",size=labelsize)
-plt.xticks([1,38,50,100,150,200],size=ticks_size)
+plt.xticks([1,65,50,100,150,200],size=ticks_size)
 plt.yticks(size=ticks_size)
 plt.legend(fontsize=14)
 
@@ -171,7 +146,6 @@ plt.savefig("./output/replication/our/figures/Figure1d.pdf")
 
 signature.to_csv("./output/replication/our/signature/signature.csv")
 signature.to_pickle("./output/replication/our/signature/signature.p")
-
 
 # In[23]:
 
