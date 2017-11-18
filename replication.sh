@@ -1,0 +1,7 @@
+python Preprocessing_Batch1.py
+python Preprocessing_Batch2.py
+python Preprocessing_Batch3.py
+python Preprocessing_Batch4.py
+python 1.SVDmerge_to_remove_batch_effects.py
+python 2.Extracting_the_obesity_signature.py
+python IntersectionSig.py

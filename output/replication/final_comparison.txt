@@ -1,0 +1,6 @@
+IntersectionSigs: 15
+JaccardDist: 0.17045454545454544
+Intersection: 13179
+#TheirGenes: 13684
+#OurGenes: 15451
+JaccardDist: 0.3858267716535433

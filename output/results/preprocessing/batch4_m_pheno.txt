@@ -1,0 +1,7 @@
+	tissue	cbmi
+GSM795608	Epididymal adipose	obese
+GSM795610	Epididymal adipose	obese
+GSM795612	Epididymal adipose	obese
+GSM795615	Epididymal adipose	lean
+GSM795617	Epididymal adipose	lean
+GSM795625	Epididymal adipose	lean

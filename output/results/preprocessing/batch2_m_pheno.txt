@@ -1,0 +1,21 @@
+	tissue	cbmi
+GSM940285	epididymal white adipose	lean
+GSM940286	epididymal white adipose	lean
+GSM940287	epididymal white adipose	lean
+GSM940288	epididymal white adipose	lean
+GSM940289	epididymal white adipose	lean
+GSM940290	epididymal white adipose	lean
+GSM940291	epididymal white adipose	lean
+GSM940292	epididymal white adipose	lean
+GSM940293	epididymal white adipose	lean
+GSM940294	epididymal white adipose	lean
+GSM940305	epididymal white adipose	obese
+GSM940306	epididymal white adipose	obese
+GSM940307	epididymal white adipose	obese
+GSM940308	epididymal white adipose	obese
+GSM940309	epididymal white adipose	obese
+GSM940310	epididymal white adipose	obese
+GSM940311	epididymal white adipose	obese
+GSM940312	epididymal white adipose	obese
+GSM940313	epididymal white adipose	obese
+GSM940314	epididymal white adipose	obese
