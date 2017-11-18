@@ -85,7 +85,7 @@ samples6_ann['Entrez_Gene_ID'] = samples6_ann['Entrez_Gene_ID'].astype(str)
 
 # # 4) Probes mapping to the same Entrez ID label are averaged out.
 
-exprs_6 = samples6_ann.groupby('Entrez_Gene_ID').mean()
+exprs_6 = samples6_ann.groupby('Symbol').mean()
 #print(exprs_6.head())
 #print('\n', exprs_6.shape)
 
