@@ -110,8 +110,8 @@ entrez_to_genesymb = dict(hugo_df[["Entrez Gene ID","Approved Symbol"]].astype("
 signature["GeneSymb"] = signature.index.map(lambda x:entrez_to_genesymb[x] if x in entrez_to_genesymb.keys() else "???")
 signature.index.name = "Entrez"
 signature.set_index("GeneSymb",append=True,inplace=True)
-signature.to_csv("./output/results/randomForest_signature2.csv", header = None)
-signature.to_pickle("./output/results/randomForest_signature2.p")
+signature.to_csv("./output/results/randomForest_signature.csv", header = None)
+signature.to_pickle("./output/results/randomForest_signature.p")
 
 # In[23]:
 

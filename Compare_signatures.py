@@ -14,7 +14,7 @@ import copy
 
 import statistics as st
 
-sig_rf = pd.read_pickle("./output/results/randomForest_signature2.p")
+sig_rf = pd.read_pickle("./output/results/randomForest_signature.p")
 sig_rf = sig_rf.index.values
 sig_gs_rf = []
 for gene in sig_rf:
